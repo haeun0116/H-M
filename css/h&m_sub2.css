@@ -615,7 +615,7 @@ div.ftrWrap>div.footer>h1{
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../images/H&M_white_logo.png');
-  text-indent: -9999px;
+  color: transparent;
   cursor: pointer;
 }
 

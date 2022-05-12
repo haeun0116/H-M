@@ -861,14 +861,14 @@ div.ftrWrap>div.footer>div.ftrBtm>p:nth-child(2){
     margin-left: 20px;
 }
 div.ftrWrap>div.footer>h1{
-    text-align: center;
-    margin-top: 40px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('../images/H&M_white_logo.png');
-    text-indent: -9999px;
-    cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../images/H&M_white_logo.png');
+  color: transparent;
+  cursor: pointer;
 }
 
 div.toTop{
