@@ -138,61 +138,6 @@ div.cntWrap>div.content.cnt02 div.section>div.artBtm>div.article>div.articleRigh
 }
 
 
-/* div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.articleRight>div.texts{
-  display: none;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.articleRight>div.images{
-  display: none;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.articleLeft>div.texts{
-  display: none;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.articleLeft>div.images{
-  display: none;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.articleLeft{
-  width: calc(100% / 8 * 7);
-}
-div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.articleLeft>div.image{
-  height: 280px;
-  width: calc((100vw - 700px) / 2 + 100%);
-  margin-left: calc((100vw - 700px) / -2);
-}
-div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article{
-  position: relative;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.btn{
-  width: calc(100% / 8);
-  text-align: left;
-  position: absolute;
-  right: 40px;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.btn>i{
-  margin-top: 90px;  
-}
-
-div.cntWrap>div.content.cnt02>div.section>div.artBtm{
-  margin-top: 0px;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.articleRight{
-  width: calc(100% / 8 * 7);
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.articleRight>div.image{
-  width: calc((100vw - 700px) / 2 + 100%);
-  height: 280px;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
-  position: relative;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.btn{
-  width: calc(100% / 8);
-  text-align-last: right;
-  position: absolute;
-  left: 40px;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.btn>i{
-  margin-top: 90px;
-} */
 
 /* 배너 */
 div.bnrWrap.bnrWrap01>div.banner.bnr01{

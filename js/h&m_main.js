@@ -143,7 +143,7 @@ $(function(){
       marginLeft : 0+'%'
     },1000,function(){
       c2Brag.find('.art:last').prependTo(c2Brag);
-      c2Brag.css({marginLeft : t+'%'});
+      c2Brag.css({marginLeft : -100+'%'});
     });
   });
 
