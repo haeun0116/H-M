@@ -62,7 +62,7 @@ $(function(){
 //     });
     
     icon.click(function(){
-        icon.toggleClass(('on');
+        $(this).toggleClass(('turn');
     });
 
 
