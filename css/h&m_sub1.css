@@ -331,7 +331,7 @@ div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.image{
   cursor: pointer;
   background-image: url('../images/2.sub1/i.png');
 }
-div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.image.on{
+div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.image.turn{
   background-image: url('../images/2.sub1/i1.png');
 }
 div.cntWrap>div.content>div.section>div.art>div.article:nth-child(4)~div.article{
