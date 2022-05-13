@@ -50,15 +50,18 @@ $(function(){
       }
     });  
 
+    var turn = true;
     icon.click(function(){
-      if(onoff){
+      if(turn){
         $(this).text('');
-        onoff = false;
+        turn = false;
       }else{
         $(this).text('');
-        onoff = true;
+        turn = true;
       }
     });
+    
+    // icon.toggleClass('')
 
 
     $('.toTop').click(function(){
