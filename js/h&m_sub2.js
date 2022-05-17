@@ -1,7 +1,7 @@
 $(function(){
     var bnr=$('.bnrWrap01>.bnr01>div.bnrTop>.bnrGroup');
     var paging=$('.bnrWrap01>.bnr01>div.bnrTop>ul.btn>li');
-    var icon =$('div.cntWrap>div.content>div.section>div.art>div.article>div.icon>i');
+    var icon =$('div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.heart');
     var wd = $(window).width();
     var mv = 0;
     var ml = 0;
@@ -74,14 +74,18 @@ $(function(){
     });  
 
 
+    // icon.click(function(){
+    //   if(onoff){
+    //     $(this).text('');
+    //     onoff = false;
+    //   }else{
+    //     $(this).text('');
+    //     onoff = true;
+    //   }
+    // });
+
     icon.click(function(){
-      if(onoff){
-        $(this).text('');
-        onoff = false;
-      }else{
-        $(this).text('');
-        onoff = true;
-      }
+      $(this).toggleClass('on');
     });
 
     $('.toTop').click(function(){
