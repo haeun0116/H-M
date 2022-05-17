@@ -1,3 +1,5 @@
+
+
 div.hdrWrap>div.header>div.hdrRight>ul.icons>li{
   font-size: 14px;
 }
@@ -13,11 +15,14 @@ div.navboxWrap>div.navBox>ul.nav>li{
 /* 메인 */
 div.mainWrap{
   height: 480px;
+}
+div.mainWrap>.image{
+  height: 480px;
   background-image: url('../images/2.sub1/sub1_main_mob.jpg');
 }
 div.mainWrap>div.main>div.texts{
   display: block;
-  padding-top: 380px;
+  margin-top: -60px;
 }
 div.mainWrap>div.main>div.texts>h2{
   font-size: 18px;
@@ -66,9 +71,11 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01>ul>li:nth-child(even){
 div.bnrWrap.bnrWrap01>div.banner.bnr01>ul>li{
   width: calc(100% / 4);
   height: 100px;
+  text-indent: -9999px;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>ul>li>span{
   font-size: 14px;
+  text-indent: 0px;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>ul>li.i2{
   background-image: url('../images/2.sub1/sub1_bnr01_mob_i2.jpg');
@@ -136,6 +143,10 @@ div.cntWrap>div.content>div.section>div.art>div.article{
   width: calc(100% / 2 -  20px);
   margin: 0px 10px;
   height: 280px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.heart{
+  width: calc(100% / 4 * 0.5);
+  height: 15px;
 }
 div.cntWrap>div.content>div.section>div.art>div.article:nth-child(2)~div.article{
   margin-top: 20px;
