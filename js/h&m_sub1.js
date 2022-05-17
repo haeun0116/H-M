@@ -1,5 +1,5 @@
 $(function(){
-    var icon =$('div.cntWrap>div.content>div.section>div.art>div.article>div.icon>i');
+    var icon =$('div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.heart');
     var wd = $(window).width();
     var mv = 0;
     t = 0;
@@ -50,18 +50,21 @@ $(function(){
       }
     });  
 
-    var turn = true;
-    icon.click(function(){
-      if(turn){
-        $(this).text('');
-        turn = false;
-      }else{
-        $(this).text('');
-        turn = true;
-      }
-    });
+    // var turn = true;
+    // icon.click(function(){
+    //   if(turn){
+    //     $(this).text('');
+    //     turn = false;
+    //   }else{
+    //     $(this).text('');
+    //     turn = true;
+    //   }
+    // });
     
     // icon.toggleClass('')
+    icon.click(function(){
+      $(this).toggleClass('on');
+    });
 
 
     $('.toTop').click(function(){
