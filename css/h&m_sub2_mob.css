@@ -138,9 +138,7 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts>h3{
   line-height: 20px;
   font-size: 18px;
 }
-div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu:nth-child(2)>div.texts{
-  
-}
+
 
 
 div.bnrWrap.bnrWrap02{
@@ -162,6 +160,10 @@ div.cntWrap>div.content>div.section>div.art>div.article{
   width: calc(100% / 2 -  20px);
   margin: 0px 10px;
   height: 280px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.heart{
+  width: calc(100% / 4 * 0.5);
+  height: 15px;
 }
 div.cntWrap>div.content>div.section>div.art>div.article:nth-child(2)~div.article{
   margin-top: 20px;

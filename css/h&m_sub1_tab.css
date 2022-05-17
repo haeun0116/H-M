@@ -179,6 +179,10 @@ div.cntWrap>div.content>div.section>div.art>div.article>div.image{
 div.cntWrap>div.content>div.section>div.art>div.article:nth-child(4)~div.article{
   margin-top: 30px;
 }
+div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.heart{
+  width: calc(100% / 8);
+  height: 15px;
+}
 div.cntWrap>div.content>div.section>div.art>div.article>div.texts{
   margin-top: 10px;
 }

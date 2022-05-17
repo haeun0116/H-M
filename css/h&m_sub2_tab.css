@@ -122,11 +122,15 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu{
   height: 400px;
   margin: 0px 29px;
 }
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.image:hover{
+  transform: none;
+}
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.image{
   height: 400px;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts{
   color: red;
+  transition: none;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts>p{
   display: none;
@@ -137,6 +141,9 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts{
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu>div.texts>h3{
   padding-left: 10px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.bnrBtm>div.menu:hover>div.texts>h3{
+  font-size: 20px;
 }
 
 
@@ -200,6 +207,10 @@ div.cntWrap>div.content>div.section>div.art>div.article>div.image{
 }
 div.cntWrap>div.content>div.section>div.art>div.article:nth-child(4)~div.article{
   margin-top: 30px;
+}
+div.cntWrap>div.content>div.section>div.art>div.article>div.icon>div.heart{
+  width: calc(100% / 8);
+  height: 15px;
 }
 div.cntWrap>div.content>div.section>div.art>div.article>div.texts{
   margin-top: 10px;
